@@ -5,6 +5,7 @@ PLOOTUS is a sleek and modern AI agent dashboard built using React.js and Tailwi
 
 ## Screenshots
 <img width="1437" alt="Screenshot 2025-03-21 at 7 37 14 PM" src="https://github.com/user-attachments/assets/5b1f8972-eb91-4033-9b01-54e803b5311f" />
+
 ## Features
 
 - **Sidebar Navigation**: Minimalistic sidebar with interactive buttons.
