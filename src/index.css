@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-b from-[#f990ef] via-[#9737ff] to-[#6681E2] bg-clip-text text-transparent;
+  }
+}
