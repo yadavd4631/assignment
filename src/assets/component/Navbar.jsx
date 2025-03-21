@@ -11,16 +11,16 @@ const Navbar = () => {
             <h1 className="text-2xl font-bold text-gradient ml-44">PLOOTUS</h1>
           </div>
         </div>
-        <button className="rounded-full bg-gradient-to-r from-[#fa5187] to-[#f68edc] h-10 w-10 text-white cursor-pointer mr-20">
+        <button className="rounded-full bg-gradient-to-r from-[#fa5187] to-[#f68edc] h-10 w-10 text-white cursor-pointer md:mr-20">
           SK
         </button>
       </div>
-      <div className="flex justify-between items-center px-10 mb-20 ">
-        <h1 className="text-gradient font-semibold ml-32 text-3xl">
+      <div className="flex justify-between items-center px-10 mb-20 gap-16  ">
+        <h1 className="text-gradient font-semibold md:ml-32 text-3xl">
           Your Agents
         </h1>
-        <button className="bg-[#6681E2] w-48 h-16 mr-20 rounded-full text-white flex items-center gap-2 text-xl cursor-pointer">
-          <span className="text-4xl ml-3">
+        <button className="bg-[#6681E2] md:w-48 md:h-16 md:mr-20 w-64 rounded-full text-white flex items-center h-12  md:text-xl cursor-pointer ">
+          <span className="md:text-4xl ml-3 ">
             <IoAdd />
           </span>
           Create Agent

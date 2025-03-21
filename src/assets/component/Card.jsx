@@ -33,12 +33,12 @@ const data = [
 
 const Card = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-6 ">
+    <div className="flex flex-wrap justify-center  md:gap-8 p-6  ">
       {data.map((person, index) => (
-        <div
+        <div 
           key={index}
-          className="bg-white shadow-2xl rounded-2xl p-6 w-72  -mt-20 text-center border-8 border-[#F6F6F6] hover:shadow-xl transition-all "
-        >
+          className="bg-white shadow-2xl rounded-2xl p-6  -mt-20 text-center border-8 border-[#F6F6F6] hover:shadow-xl transition-all mb-24 "
+            >
           <img
             src={person.image}
             alt={person.name}
